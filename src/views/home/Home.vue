@@ -10,7 +10,7 @@
 
         <feature-view></feature-view>
 
-        <tab-control :titles = "titles"></tab-control>
+        <tab-control :titles = "titles" class="tab-control"></tab-control>
         <ul>
             <li>cool!</li>
             <li>cool!</li>
@@ -164,5 +164,10 @@ export default {
         right: 0;
         top: 0;
         z-index: 9;
+    }
+    .tab-control{
+        position: sticky;
+        top: 44px;
+        background-color: #ffffff;
     }
 </style>
